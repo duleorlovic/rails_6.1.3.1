@@ -42,6 +42,8 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'active_record_doctor', github: 'duleorlovic/active_record_doctor', branch: 'dependent_delete_or_destroy'
 end
 
 group :test do
